@@ -1,0 +1,44 @@
+{
+  "name": "test_npl_work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node-dev index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/hapi": "^18.0.7",
+    "@types/hapi__hapi": "^20.0.12",
+    "@types/hapi__inert": "^5.2.3",
+    "@types/hapi__vision": "^5.5.3",
+    "@types/html-to-text": "^8.1.0",
+    "@types/joi": "^17.2.3",
+    "@types/natural": "^5.1.1",
+    "@types/node": "^18.6.4",
+    "@types/pdfkit": "^0.12.6",
+    "@types/uuid": "^8.3.4",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/inert": "^7.0.0",
+    "@hapi/vision": "^7.0.0",
+    "@types/axios": "^0.14.0",
+    "axios": "^0.27.2",
+    "az": "^0.2.3",
+    "dotenv": "^16.0.1",
+    "hapi-swagger": "^14.5.5",
+    "html-to-text": "^8.2.1",
+    "joi": "^17.6.0",
+    "natural": "^5.2.3",
+    "pdfkit": "^0.13.0",
+    "uuid": "^8.3.2"
+  }
+}
