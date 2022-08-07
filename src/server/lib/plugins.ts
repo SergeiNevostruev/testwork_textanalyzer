@@ -11,6 +11,7 @@ const swaggerOptions: HapiSwagger.RegisterOptions = {
     title: "API Documentation",
     description: "API Documentation",
   },
+  produces: ["application/json", "application/pdf"],
   jsonPath: "/documentation.json",
   documentationPath: "/documentation",
   schemes: ["http", "https"],
