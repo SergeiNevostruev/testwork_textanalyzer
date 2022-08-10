@@ -48,6 +48,11 @@ const testRoute: Hapi.ServerRoute[] = [
           url: Joi.array().items(Joi.string().uri()),
         }),
       },
+      response: {
+        options: {
+          allowUnknown: true,
+        },
+      },
     },
   },
 ];

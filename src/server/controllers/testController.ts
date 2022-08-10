@@ -40,7 +40,10 @@ const file: Hapi.Lifecycle.Method = async (request, h) => {
           });
         }, config.deleteFileTimeOut);
       }
-      return h.file(fileName, {});
+      return h
+        .file(fileName, {})
+        .header("content-disposition", "attachment")
+        .header("filename", "file.pdf");
     } else {
       return boom.serverUnavailable("Не удалось записать PDF файл");
     }
