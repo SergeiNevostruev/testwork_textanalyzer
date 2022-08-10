@@ -49,6 +49,7 @@ const getHtmlAndConvertToText = async (data: RequestUrlType) => {
       selectors: config.parsingTegs,
       returnDomByDefault: true,
     },
+    ignoreHref: true,
   };
   const dataArray: Array<{ url: string; data: string }> = [];
   for (const url of data) {
